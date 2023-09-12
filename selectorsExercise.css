@@ -1,0 +1,71 @@
+body{
+    background-color: #CED4D8;
+}
+
+H1{
+    color: #AC6AC7;
+}
+
+h2{
+    color: rgb(255, 165, 0);
+}
+
+li{
+    color: blue;
+}
+
+p{
+    background-color: gold;
+}
+
+input{
+    border: pink 5px dotted;
+}
+
+.first{
+    background-color: #fff;
+}
+
+#important{
+    border: rgb(47, 47, 167) 3px dashed;
+}
+
+div p{
+    font-size: 30px;
+}
+
+input[type="email"]{
+    background-color: #808080;
+}
+
+div:last-of-type p{
+    background-color: hotpink;
+}
+
+div:last-of-type p:nth-child(3){
+    border: 7px solid rgb(255, 255, 255);
+}
+
+label:last-of-type{
+    font-size: 25px; color: seashell;
+}
+
+ul li input:checked{
+    margin-left: 40px;
+}
+
+label{
+    text-transform: lowercase;
+}
+
+h1:hover{
+    color: navy;
+}
+
+div a:visited{
+    color: silver;
+}
+
+#important::first-letter{
+color: lime; font-size: 90px;
+}
